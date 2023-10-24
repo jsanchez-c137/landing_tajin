@@ -109,6 +109,7 @@ header{
     border: 0.1rem solid var(--white);
     border-radius: 0.5rem;
     padding: 0.5rem;
+    font-size: 1.8rem;
 }
 
 .navbar ul li a:hover{
