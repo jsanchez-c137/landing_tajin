@@ -146,7 +146,8 @@ border: 0.2rem solid var(--links);
     right: 0; 
     bottom: 0;
     background: var(--primary-color);
-    clip-path: path("M0 400 C350 650 800 750 1500 500 L1500 0L0 0Z");
+    clip-path: path("M0 350 C100 750 1000 400 1500 700 L1500 0L0 0Z");
+    /*pc 1500  path("M0 350 C250 850 1000 150 1500 950 L1500 0L0 0Z");*/
     }
 
 
