@@ -1,0 +1,17 @@
+{
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.port": 0,
+    "liveServer.settings.multiRootWorkspaceName": "",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+",
+    "git.openRepositoryInParentFolders": "never",
+    "window.zoomLevel": 1,
+    "security.allowedUNCHosts": [
+        "wsl$"
+    ],
+    
+}
