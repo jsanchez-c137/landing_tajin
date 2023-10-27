@@ -28,7 +28,8 @@ html{
 /*Especials*/
 a{  
     color: var(--links);
-    text-decoration: none;  
+    text-decoration: none; 
+    cursor: pointer;
 }
 
 a:hover{
@@ -52,7 +53,7 @@ h2{
 
 section{
     min-width: 7rem;
-    min-height: 100vh;
+    min-height: 90vh;
     color: var(--primary-color);
     padding: 0 16%;
 
@@ -194,7 +195,6 @@ border: 0.2rem solid var(--links);
 
 .section-inicio a p{
     border-bottom: 1px solid var(--white);
-
 }
 
 
@@ -206,24 +206,90 @@ border: 0.2rem solid var(--links);
 .section-inicio a:hover *{
     color: var(--active);
 }
-  
+
+.section-empresas div img{
+    width: 135px;
+    margin: 15px 50px;    
+}
+
 .section-valor h2{
     color: var(--white);
 }
 .section-valor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: var(--primary-color);
-
-}
-.section-form h2{
-    color: var(--white);
-    }
-.section-form{
-    color: var(--white);
-    background-color: var(--primary-color);
 }
 
+.imgs-div{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+    height: 50%;
+}
 
+/* Establecer el punto central del círculo */
+.imgs-section {
+    width: 0px;
+    margin: 5px;
+    padding: 5px;
+    min-height: 300px;
+  }
+  
+  /* Hacer que cada imagen sea circular y rotarla alrededor del centro */
+  .imgs-section div {
+    display: flex;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .imgs-section div img {
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px; 
+  }
+
+  .imgs-section div:nth-child(1) {
+    transform: rotate(0deg) translate(90px) rotate(-0deg);
+  }
+  
+  .imgs-section div:nth-child(2) {
+    transform: rotate(60deg) translate(90px) rotate(-60deg);
+  }
+  
+  .imgs-section div:nth-child(3) {
+    transform: rotate(120deg) translate(90px) rotate(-120deg);
+  }
+  
+  .imgs-section div:nth-child(4) {
+    transform: rotate(180deg) translate(90px) rotate(-180deg);
+  }
+  
+  .imgs-section div:nth-child(5) {
+    transform: rotate(240deg) translate(90px) rotate(-240deg);
+  }
+  
+  .imgs-section div:nth-child(6) {
+    transform: rotate(300deg) translate(90px) rotate(-300deg);
+  }
+  
+
+
+.section-porque{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    
+}
 
 
 
