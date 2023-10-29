@@ -42,20 +42,21 @@ li{
 
 h1{
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--white);
+    padding: 0 15% 0;
 }
 
 h2{
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: var(--primary-color);
     padding:0 20% 0;
 }
 
 section{
     min-width: min-content;
-    min-height: 88vh;
+    min-height: 87.5vh;
     color: var(--primary-color);
 }
 
@@ -64,6 +65,7 @@ p{
     justify-content: center;
     align-items: center;
     width: 51%;
+    font-size: 1.6rem;
     margin: 1.5rem 0 3rem 0;
 }
 
@@ -155,7 +157,7 @@ border: 0.2rem solid var(--links);
     right: 0; 
     bottom: 0;
     background: var(--primary-color);
-    clip-path: path("M0 350 C100 750 1000 400 1500 700 L1500 0L0 0Z");
+    clip-path: path("M0 450 C10 850 1000 550 1500 600 L1500 0L0 0Z");
     /*pc 1500  path("M0 350 C250 850 1000 150 1500 950 L1500 0L0 0Z");*/
     }
 
@@ -173,14 +175,18 @@ border: 0.2rem solid var(--links);
 }
 
 .section-inicio p{
-    padding: 0 20% 0;
+    padding: 0 15% 0;
     width: 100%;
 }
 
+.section-inicio a i{
+    scale: 1.6;
+    margin: 0 5px 0;
+}
 .section-inicio a p {
     box-sizing: border-box;
     padding: 0 0 0;
-    width: 143px;
+    width: 255px;
     margin: 0 3px 0;
 
 }
@@ -197,20 +203,25 @@ border: 0.2rem solid var(--links);
     border-radius: 1rem; 
     display: flex;
     flex-direction: column;
-    width: 25%;
-    margin: 3% 3%;
-    padding: 3% 3%;
+    max-width: 25%;
+    margin: 2.5% 2.5%;
+    padding: 2.5% 2.5%;
     justify-content: center;
     align-items: center;
 }
 
 .values-article p{
-    margin: 5px 0px;
+    max-height: 35px;
+    max-width: 100px;
+    margin: 5px 0px 0;
+    font-weight: bolder;
+    font-size: 1.2rem;
     
 }
 
 .values-article i{
-    scale: 1.5;
+    margin: 5px 0;
+    scale: 2.2;
     color: var(--primary-color);
 }
 
@@ -221,17 +232,42 @@ border: 0.2rem solid var(--links);
 
 .section-inicio a *{  
     color: var(--links);
-    text-decoration: none;  
+    text-decoration: none; 
+    font-weight: bolder;  
 }
 
 .section-inicio a:hover *{
     color: var(--active);
 }
+.section-empresas{}
+
+.section-empresas{}
+
+
+
+.section-empresas h2{
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    padding: 0 50px;
+}
+
+.section-empresas p{
+    min-width: 300px;
+    padding: 0 5px;
+    margin: 0px;
+
+}
+
 
 .section-empresas div img{
     width: 135px;
     margin: 15px 50px;    
 }
+
+
+
+
 
 .section-valor h2{
     color: var(--white);
@@ -253,13 +289,14 @@ border: 0.2rem solid var(--links);
 }
 
 .section-valor h3{
-padding: 15px 0 0;
+    width: 250px;
+    font-size: 1.7rem;
+    padding: 10px 5px 0;
 }
 
-.section-valor p{
-    width: 100%;
-    margin: 10px 0 15px;  
-    padding: ;  
+.section-valor div p{
+    width: 300px;
+    margin: 5px 5px 10px;  
 }
 
 .imgs-div{
@@ -328,6 +365,9 @@ padding: 15px 0 0;
     max-width: 50%;
     
 }
+
+
+
 
 
 
