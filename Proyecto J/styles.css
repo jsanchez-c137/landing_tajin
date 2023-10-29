@@ -47,19 +47,23 @@ h1{
 }
 
 h2{
+    width: 100%;
     font-size: 1.8rem;
     color: var(--primary-color);
+    padding:0 20% 0;
 }
 
 section{
-    min-width: 7rem;
-    min-height: 90vh;
+    min-width: min-content;
+    min-height: 88vh;
     color: var(--primary-color);
-    padding: 0 16%;
-
 }
 
 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 51%;
     margin: 1.5rem 0 3rem 0;
 }
 
@@ -97,20 +101,13 @@ header{
 }
  /*Section of nav 4elements*/
 
-
-
 .navbar{
-    width: 600px;
-    
-    
+    width: 450px; 
 }
 
 .navbar ul{
     justify-content: space-evenly;
     display: flex;
-}
-
-.navbar ul li{
 }
 
 .navbar ul li:hover  *{
@@ -135,6 +132,7 @@ border: 0.2rem solid var(--links);
 }
 
 .section-inicio{
+    padding: 0 5% 0;
     display: inline-block;
     margin: 12.5vh 0 0 0;
     color: var(--white);
@@ -172,6 +170,19 @@ border: 0.2rem solid var(--links);
     margin: 0;
     padding: 0;
     display: flex;
+}
+
+.section-inicio p{
+    padding: 0 20% 0;
+    width: 100%;
+}
+
+.section-inicio a p {
+    box-sizing: border-box;
+    padding: 0 0 0;
+    width: 143px;
+    margin: 0 3px 0;
+
 }
 
 .values-header{
@@ -224,6 +235,7 @@ border: 0.2rem solid var(--links);
 
 .section-valor h2{
     color: var(--white);
+    padding: 0 0 0;
 }
 .section-valor{
     display: flex;
@@ -232,6 +244,22 @@ border: 0.2rem solid var(--links);
     align-items: center;
     color: white;
     background-color: var(--primary-color);
+}
+
+.section-porque div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-valor h3{
+padding: 15px 0 0;
+}
+
+.section-valor p{
+    width: 100%;
+    margin: 10px 0 15px;  
+    padding: ;  
 }
 
 .imgs-div{
