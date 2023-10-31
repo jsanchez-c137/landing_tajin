@@ -24,7 +24,6 @@ html{
     --active: #3D89FF;
     }
 
-
 /*Especials*/
 a{  
     color: var(--links);
@@ -41,6 +40,7 @@ li{
 }
 
 h1{
+    text-align: center;
     font-weight: bolder;
     font-size: 2.5rem;
     color: var(--white);
@@ -48,6 +48,7 @@ h1{
 }
 
 h2{
+    text-align: center;
     width: 100%;
     font-size: 2.2rem;
     color: var(--primary-color);
@@ -56,11 +57,12 @@ h2{
 
 section{
     min-width: min-content;
-    min-height: 87.5vh;
+    min-height: 90vh;
     color: var(--primary-color);
 }
 
-p{
+p{  
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,24 +126,35 @@ header{
     color: var(--white); 
     border: 0.1rem solid var(--white);
     border-radius: 0.5rem;
-    padding: 0.25rem;
+    padding: 0.4rem;
     font-size: 1.6rem;   
 }
+
+.navbar ul li:active *{
+    color: var(--active);
+    
+}
+
+
  /*Section of nav 4elements*/
 
-.navbar ul li a:hover{
-border: 0.2rem solid var(--links);
+ .navbar ul li a:hover{
+    border: 0.2rem solid var(--links);
+}
+.navbar ul li a:active{
+    border: 0.2rem solid var(--active);
 }
 
 .section-inicio{
-    padding: 0 5% 0;
+    padding: 0 3% 0;
     display: inline-block;
     margin: 12.5vh 0 0 0;
     color: var(--white);
     
     
-    /*  clip-path: path("M0 400 C100 500 300 400 500 500 L500 0L0 0Z");
-1080 PC clip-path:M0 450 C400 600 1000 315 1500 500 L1500 0L0 0Z 
+        /*
+        clip-path: path("M0 400 C100 500 300 400 500 500 L500 0L0 0Z");
+        1080 PC clip-path:M0 450 C400 600 1000 315 1500 500 L1500 0L0 0Z 
         clip-path: M0 190 C100 320 320 210 500 300 L500 0L0 0Z
         clip-path: path("M0 400 C100 500 300 400 500 500 L500 0L0 0Z
         background-image: linear-gradient(220deg, #8141ff 0, #6f3dff 50%, #5c39f5 100%);
@@ -231,19 +244,18 @@ border: 0.2rem solid var(--links);
 
 
 .section-inicio a *{  
-    color: var(--links);
+    color: var(--white);
     text-decoration: none; 
     font-weight: bolder;  
 }
 
 .section-inicio a:hover *{
+    color: var(--links);
+}
+
+.section-inicio a:active *{
     color: var(--active);
 }
-.section-empresas{}
-
-.section-empresas{}
-
-
 
 .section-empresas h2{
     align-items: center;
@@ -253,21 +265,16 @@ border: 0.2rem solid var(--links);
 }
 
 .section-empresas p{
-    min-width: 300px;
+    min-width: 320px;
     padding: 0 5px;
     margin: 0px;
 
 }
 
-
 .section-empresas div img{
     width: 135px;
     margin: 15px 50px;    
 }
-
-
-
-
 
 .section-valor h2{
     color: var(--white);
@@ -355,22 +362,102 @@ border: 0.2rem solid var(--links);
   .imgs-section div:nth-child(6) {
     transform: rotate(300deg) translate(90px) rotate(-300deg);
   }
-  
-
 
 .section-porque{
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
     max-width: 50%;
-    
 }
 
+.section-revisa h2{
+    width: 100%;
+    margin: 15px 0 0 0;
+}
 
+.section-revisa div{
+    width: 350px;
+}
 
+.section-revisa p{
+    width: 320px;
+    padding: 1% 0 0 0;
+}
 
+.idea-revisa{
+    margin: 0 0 0 0;
+    width: 300px;
+}
 
+.section-revisa button{
+    background-color: var(--white);
+    box-shadow: 1px 5px 6px 0;
+    border: var(--primary-color) 1px solid;
+    color: var(--primary-color);
+    border-radius: 50px;
+    min-width: 30%;
+    margin: 0 15% 0;
+    padding: 10px;
+    font-weight: bold;
+}
+.section-revisa button:hover{
+    color: var(--links);
+    border: 1px var(--links) solid;
+    box-shadow: 1px 5px 6px 0;
+}
+.section-revisa button:active{
+    color: var(--active);
+    border:1px var(--active) solid;
+    box-shadow: 1px 3px 3px 0;
+}
 
+.section-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px var(--primary-color) solid;
+    border-radius: 10px;
+    width: 50%;
+    margin: 25%;
+    min-height: 40%;
+    padding: 25px;
+}
+
+.section-form p{
+    width: 100%;
+    padding: 2% 5%;
+}
+
+.section-form .form-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact input{
+    width: 100%;
+    margin: 5px;
+    padding: 3px;
+    border: 1px var(--primary-color) solid;
+    border-radius: 4px;
+}
+
+.form-contact .contact-submit{
+    width: 50%;
+    padding: 8px;
+    background-color: var(--primary-color);
+    color: var(--white);
+
+}
+
+.form-contact .contact-submit:hover{
+    color: var(--links);
+    box-shadow: 0 0 6px 1px;
+}
+.form-contact .contact-submit:active{
+    color: var(--active);
+    box-shadow: 0 0 4px 1px;
+}
 
 /*
     html {
