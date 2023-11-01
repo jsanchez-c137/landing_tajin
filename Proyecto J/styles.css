@@ -334,6 +334,7 @@ header{
   .imgs-section div img {
     display: flex;
     object-fit: cover;
+    border: 7px var(--white) solid;
     border-radius: 50%;
     width: 110px;
     height: 110px; 
@@ -395,11 +396,11 @@ header{
     border: var(--primary-color) 1px solid;
     color: var(--primary-color);
     border-radius: 50px;
-    min-width: 30%;
     margin: 0 15% 0;
     padding: 10px;
     font-weight: bold;
 }
+
 .section-revisa button:hover{
     color: var(--links);
     border: 1px var(--links) solid;
@@ -416,12 +417,16 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 15% 5%;
+}
+
+.article-form-contact{
     border: 3px var(--primary-color) solid;
-    border-radius: 10px;
-    width: 50%;
-    margin: 25%;
-    min-height: 40%;
     padding: 25px;
+    max-width: 500px;
+    border-radius: 10px;
+    min-height: 10%;
+    box-shadow: 0px 0px 60px 0px;
 }
 
 .section-form p{
@@ -436,10 +441,11 @@ header{
 
 .form-contact input{
     width: 100%;
-    margin: 5px;
+    margin: 10px;
     padding: 3px;
     border: 1px var(--primary-color) solid;
     border-radius: 4px;
+    box-shadow: 0 0px 0px 0px;
 }
 
 .form-contact .contact-submit{
@@ -447,7 +453,6 @@ header{
     padding: 8px;
     background-color: var(--primary-color);
     color: var(--white);
-
 }
 
 .form-contact .contact-submit:hover{
