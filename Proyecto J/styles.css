@@ -251,6 +251,7 @@ header{
 
 .section-inicio a:hover *{
     color: var(--links);
+    transition-duration: .4s;
 }
 
 .section-inicio a:active *{
@@ -289,10 +290,16 @@ header{
     background-color: var(--primary-color);
 }
 
+.section-porque h2{
+    margin: 0 0 15px;
+}
+
 .section-porque div{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    box-shadow: 0 0 10px 2px;
+    margin: 14px;
 }
 
 .section-valor h3{
@@ -396,7 +403,7 @@ header{
     border: var(--primary-color) 1px solid;
     color: var(--primary-color);
     border-radius: 50px;
-    margin: 0 15% 0;
+    margin: 0 30% 0;
     padding: 10px;
     font-weight: bold;
 }
@@ -405,6 +412,7 @@ header{
     color: var(--links);
     border: 1px var(--links) solid;
     box-shadow: 1px 5px 6px 0;
+    transition-duration: .4s;
 }
 .section-revisa button:active{
     color: var(--active);
@@ -417,7 +425,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 15% 5%;
+    padding: 0 15% 0%;
 }
 
 .article-form-contact{
@@ -426,8 +434,14 @@ header{
     max-width: 500px;
     border-radius: 10px;
     min-height: 10%;
-    box-shadow: 0px 0px 60px 0px;
+    
 }
+
+.article-form-contact:hover{
+    transition-duration: 3s;
+    box-shadow: 0px 0px 200px -30px;
+}
+
 
 .section-form p{
     width: 100%;
@@ -440,12 +454,26 @@ header{
 }
 
 .form-contact input{
-    width: 100%;
-    margin: 10px;
+    
+    margin: 5px;
     padding: 3px;
     border: 1px var(--primary-color) solid;
     border-radius: 4px;
-    box-shadow: 0 0px 0px 0px;
+}
+
+.inputs::placeholder{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-contact .labels{
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.form-contact .inputs:hover{
+    box-shadow: 0 0 4px 0px;
 }
 
 .form-contact .contact-submit{
@@ -458,11 +486,19 @@ header{
 .form-contact .contact-submit:hover{
     color: var(--links);
     box-shadow: 0 0 6px 1px;
+    transition-duration: 0.4s;
 }
 .form-contact .contact-submit:active{
     color: var(--active);
     box-shadow: 0 0 4px 1px;
 }
+
+
+textarea {
+    padding: 5px;
+}
+
+
 
 /*
     html {
@@ -496,3 +532,7 @@ h2 {
 /* h3 {
 }
 */
+
+
+
+

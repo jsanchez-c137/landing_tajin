@@ -1,19 +1,17 @@
 {
 
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/c/Users/tuUser/AppData/Local/Google/Chrome/Application/chrome.exe",
-    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.CustomBrowser": "chrome",
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.port": 0,
+    "liveServer.settings.port": 1,
     "liveServer.settings.multiRootWorkspaceName": "",
-    "liveServer.settings.fullReload": true,
+    "liveServer.settings.fullReload": false,
     "liveServer.settings.useLocalIp": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Default Dark+",
     "git.openRepositoryInParentFolders": "never",
     "window.zoomLevel": 1,
-    "security.allowedUNCHosts": [
-        "wsl$"
-    ],
+    "liveServer.settings.showOnStatusbar": true,
+    "liveServer.settings.useWebExt": false,
     
 }
