@@ -131,21 +131,25 @@
             <article class="article-form-contact">
                 <h2>¡Contáctanos hoy mismo!</h2>
                 <p>Contáctanos hoy mismo para más información o para inscribirte.</p>
-                <form class="form-contact" action="" method="POST">
-                    <form action="https://formsubmit.co/sanchez29052001@gmail.com" method="POST">
-                    <label class="labels" for="nombre" name="nombre" >Nombre</label>
-                    <input class="inputs" id="nombre" name="nombre" type="text" placeholder="ej.''Joel'',''Pedro''." required>
-                    <label class="labels" for="email" name="correo">Correo electronico</label>
-                    <input class="inputs" id="email" name="correo" type="email" placeholder="Example@email.com" required>
-                    <label class="labels" for="asunto" name="asunto">Asunto</label>
+                <!--<input type="hidden" name="_next" value="https://computacion-tajin.onrender.com"/>
+                <input type="hidden" name="_captcha" value="false">  -->
+                <form class="form-contact" action="https://formsubmit.co/sanchez29052001@gmail.com" method="POST">
+                    <label class="labels" for="nombre">Nombre</label>
+                    <input class="inputs" id="nombre" name="nombre" type="text" placeholder="ej. 'Joel', 'Pedro'" required>
+                
+                    <label class="labels" for="email">Correo electrónico</label>
+                    <input class="inputs" id="email" name="correo" type="email" placeholder="example@email.com" required>
+                
+                    <label class="labels" for="asunto">Asunto</label>
                     <input class="inputs" id="asunto" name="asunto" type="text" placeholder="Motivo" required>
-                    <label class="labels" for="telefono" name="telefono">Numero telefonico</label>
-                    <input class="inputs" type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="ej. 784 456 7890" required>
-                    <label class="labels" for="mensaje" name="mensaje">Mensaje</label>
+                
+                    <label class="labels" for="telefono">Número telefónico</label>
+                    <input class="inputs" type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" placeholder="ej. 7844567890" required>
+                
+                    <label class="labels" for="mensaje">Mensaje</label>
                     <textarea class="inputs" id="mensaje" placeholder="Usa este espacio para escribir tu mensaje" name="mensaje" rows="3" cols="20" required></textarea>
+                
                     <input class="contact-submit" type="submit"/>
-                    <!--<input type="hidden" name="_next" value="https://computacion-tajin.onrender.com"/>
-                    <input type="hidden" name="_captcha" value="false">  -->
                 </form>
             </article>
         </section>
